@@ -136,10 +136,8 @@ class LeNetModel(object):
 	    target_pred=self.output
         with tf.variable_scope('reuse') as scope:
             source_logits,_=D(source_feature)
-	    #fuse_source_feature,source_logits=MD(source_flattened,source_fc1,source_fc2)
             scope.reuse_variables()
             target_logits,_=D(target_feature)
-	    #fuse_target_feature,target_logits=MD(target_flattened,target_fc1,target_fc2)
 
 	self.target_pred=target_pred	
 	self.source_feature=source_feature
@@ -153,6 +151,7 @@ class LeNetModel(object):
 	#target_result=tf.argmax(yt,1)
 
 
+	#--------- use tf.ones to avoid division by zero -----------------------------
         ones=tf.ones_like(source_feature)
         current_source_count=tf.unsorted_segment_sum(ones,source_result,self.num_classes)
         current_target_count=tf.unsorted_segment_sum(ones,target_result,self.num_classes)
@@ -183,13 +182,12 @@ class LeNetModel(object):
 	
         D_real_loss=tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=target_logits,labels=tf.ones_like(target_logits)))
         D_fake_loss=tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=source_logits,labels=tf.zeros_like(source_logits)))
-        G_real_loss=tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=source_logits,labels=tf.ones_like(source_logits)))
-        G_fake_loss=tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=target_logits,labels=tf.zeros_like(target_logits)))
         self.D_loss=D_real_loss+D_fake_loss
 	
         self.G_loss=-self.D_loss
 	tf.summary.scalar('JSD',self.G_loss/2+math.log(2))
 	
+	#------------- Domain Adversarial Loss is scaled by 0.1 following RevGrad--------------------------
         self.G_loss=0.1*self.G_loss
 	self.D_loss=0.1*self.D_loss
 	return self.G_loss,self.D_loss,source_centroid,target_centroid
