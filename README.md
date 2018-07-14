@@ -9,7 +9,7 @@ Tensorflow Implementation for moving semantic transfer network (ICML2018).
 Based on adversarial adaptation, we propose a `Pseudo Centroid Alignment Objective` to enforce `Semantic Transfer`.
 
 ## Citation
-If you use this library for your research, we would be pleased if you cite the following papers:
+If you find this useful for your research, we would be pleased if you cite the following papers:
 
 ```
 @inproceedings{xie2018learning,
