@@ -19,7 +19,7 @@ Choose the transfer task in `mstntrain.py` (default is A->W) and
 
 
 ```
-"python mstntrain.py"
+python mstntrain.py
 ```
 
 ## Evaluating Model
