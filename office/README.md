@@ -12,5 +12,5 @@
 
 Download the pretrained Alexnet Model and add the model to `alexnet` directory.
 
-Download the [Office-31](https://cs.stanford.edu/~jhoffman/domainadapt/#datasets_code) or [ImageCLEF](https://drive.google.com/file/d/0B9kJH0-rJ2uRS3JILThaQXJhQlk/view?usp=sharing).
+Download the [Office-31](https://cs.stanford.edu/~jhoffman/domainadapt/#datasets_code) or [ImageCLEF](https://drive.google.com/file/d/0B9kJH0-rJ2uRS3JILThaQXJhQlk/view?usp=sharing) and put the images in `Home` directory.
 .
