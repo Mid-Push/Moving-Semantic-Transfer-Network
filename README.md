@@ -50,5 +50,5 @@ If you have any problem about this library, please create an Issue or send us an
 
 
 ## Acknowledgement for the code
-For digits dataset, the code is modified from [Eric Tzeng's work'](https://github.com/erictzeng/mldata). 
-For real-world dataset, the code is based on [Here](https://github.com/dgurkaynak/tensorflow-cnn-finetune)
+For digits dataset, the code is modified from [Here](https://github.com/erictzeng/mldata). 
+For real-world dataset, the code is based on [Here](https://github.com/dgurkaynak/tensorflow-cnn-finetune).
