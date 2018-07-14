@@ -21,6 +21,15 @@ If you find this useful for your research, we would be pleased if you cite the f
 }
 ```
 
+## Tips for your reproduction of our work.
+
+My work is based on DANN. During my reimplementation of DANN, I noticed following problems worth attention for reproduing DANN and our work MSTN. Hope these could help you. :)
+
+<li> Data Preprocessing </li>
+<li> Hyperparameter </li>
+
+
+
 ## Contact
 If you have any problem about this library, please create an Issue or send us an Email at:
 - shaoanxie@outlook.com
