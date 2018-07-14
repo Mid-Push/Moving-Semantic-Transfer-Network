@@ -6,7 +6,7 @@ Tensorflow Implementation for moving semantic transfer network (ICML2018).
 
 <img src="introduction/mstn_network.PNG" width=400 />
 
-Based on adversarial adaptation, we propose a `Pseudo Centroid Alignment Objective` to enforce `Semantic Transfer`.
+Based on adversarial adaptation, we propose a `Pseudo Centroid Alignment Objective` to enforce `Semantic Transfer`. If you are limited to use a relative-small batch size (64 for 31-classification or 100 for 10000-classification), you might be interested in our `Moving Centroid`.
 
 ## Citation
 If you find this useful for your research, we would be pleased if you cite the following papers:
@@ -21,7 +21,7 @@ If you find this useful for your research, we would be pleased if you cite the f
 }
 ```
 
-## Tips for your reproduction of our work.
+## Tips for your reproduction of DANN and our work MSTN.
 
 My work is based on DANN. During my reimplementation of DANN, I noticed following problems worth attention for reproduing DANN and our work MSTN. Hope these could help you. :)
 
