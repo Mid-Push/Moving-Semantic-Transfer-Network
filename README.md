@@ -34,7 +34,7 @@ My work is based on DANN. During my reimplementation of DANN, I noticed followin
 <li> Implementing Moving Centroid </li>
 <ol type="a">
 <li>We can not just update the centroid by "moving_centroid=theta*moving_centroid+(1-theta)*current_centroid". This is just a update_op and need to be executed by specifying. (Look our code for more detail.)</li>
->li>Using tensorboard to check whether centroids have been updated.</li>
+<li>Using tensorboard to check whether centroids have been updated.</li>
 </ol>
 
 
