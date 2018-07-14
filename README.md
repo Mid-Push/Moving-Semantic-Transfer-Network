@@ -26,7 +26,8 @@ If you find this useful for your research, we would be pleased if you cite the f
 My work is based on DANN. During my reimplementation of DANN, I noticed following problems worth attention for reproduing DANN and our work MSTN. Hope these could help you. :)
 
 <li> Data Preprocessing </li>
-<ol type="a"> Scale image to 256x256 
+<ol type="a">
+<li> Scale image to 256x256. </li> 
 <li >When training, source and target images would be `Random Cropping`. When testing, target images would be `Center Cropping`</li>
 </ol>
 
