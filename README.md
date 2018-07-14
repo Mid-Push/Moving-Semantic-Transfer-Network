@@ -46,3 +46,9 @@ My work is based on DANN. During my reimplementation of DANN, I noticed followin
 ## Contact
 If you have any problem about this library, please create an Issue or send us an Email at:
 - shaoanxie@outlook.com
+
+
+
+## Acknowledgement for the code
+For digits dataset, the code is modified from [Eric Tzeng's work'](https://github.com/erictzeng/mldata). 
+For real-world dataset, the code is based on [Here](https://github.com/dgurkaynak/tensorflow-cnn-finetune)
