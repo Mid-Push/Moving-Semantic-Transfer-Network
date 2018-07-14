@@ -28,7 +28,7 @@ My work is based on DANN. During my reimplementation of DANN, I noticed followin
 <li> Data Preprocessing </li>
 <ol type="a">
 <li> Scale image to 256x256. </li> 
-<li >When training, source and target images would be "Random Cropping". When testing, target images would be "Center Cropping"</li>. (Caffe only uses crop command but the inner implemenattion actually random crop when training while center crop when testing. )
+<li >When training, source and target images would be "Random Cropping". When testing, target images would be "Center Cropping" (Caffe only uses crop command but the inner implemenattion actually random crop when training while center crop when testing). </li>
 </ol>
 
 <li> Hyperparameter </li>
