@@ -16,5 +16,6 @@ Download the [Office-31](https://cs.stanford.edu/~jhoffman/domainadapt/#datasets
 ```/home/dataset/office/domain_adaptation_images/amazon/images/calculator/frame_0001.jpg 5```
 
 Choose the transfer task in `mstntrain.py` (default is A->W) and 
+
 ```python mstntrain.py```
 .
