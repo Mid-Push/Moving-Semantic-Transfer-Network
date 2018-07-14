@@ -4,8 +4,7 @@
 
 Tensorflow Implementation for moving semantic transfer network (ICML2018).
 
-![alt text](introduction/mstn_network.PNG "Moving Semantic Transfer Network")
-
+<img src="introduction/mstn_network.PNG" width=256 height=256 />
 ## Citation
 If you use this library for your research, we would be pleased if you cite the following papers:
 
