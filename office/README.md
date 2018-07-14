@@ -17,5 +17,9 @@ Download the [Office-31](https://cs.stanford.edu/~jhoffman/domainadapt/#datasets
 
 Choose the transfer task in `mstntrain.py` (default is A->W) and 
 
-```python mstntrain.py```
+```
+Alexnet:
+
+"./build/tools/caffe train -solver models/*/alexnet/solver.prototxt -weights models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel (*=DAN, RTN or JAN)"
+```
 .
