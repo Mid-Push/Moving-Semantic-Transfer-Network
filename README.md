@@ -4,8 +4,8 @@
 
 Tensorflow Implementation for moving semantic transfer network (ICML2018).
 <figure class="half">
-<img src="introduction/mstn_network.PNG width=200"  />
-<img src="introduction/target.png" width=200 />
+<img src="introduction/mstn_network.PNG" width="200"  />
+<img src="introduction/target.png" width="200" />
 </figure>
 Based on adversarial adaptation, we propose a `Pseudo Centroid Alignment Objective` to enforce `Semantic Transfer`. If you are limited to use a relative-small batch size (64 for 31-classification or 100 for 1000-classification), you might be interested in our `Moving Centroid Alignment`.
 
