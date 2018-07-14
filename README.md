@@ -1,4 +1,4 @@
-# Moving-Semantic-Transfer-Network
+# Moving Semantic Transfer Network (ICML2018)
 
 
 
