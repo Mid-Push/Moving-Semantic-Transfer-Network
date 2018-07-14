@@ -24,4 +24,12 @@ Choose the transfer task in `mstntrain.py` (default is A->W) and
 
 ## Evaluating Model
 
-We also provided the trained model for MSTN. Download the trained model directory from [here](https://drive.google.com/drive/folders/1o10GWduF3QI7p55x14YwyYxykjEPi8Jz?usp=sharing).
+### We also provided the trained model Amazon->Webcam for MSTN. 
+
+Download the trained model directory from [here](https://drive.google.com/drive/folders/1o10GWduF3QI7p55x14YwyYxykjEPi8Jz?usp=sharing).
+
+Put the `trained_mstn_model` directory in `alexnet` directory.
+
+Restore the model and evaluate it.
+
+```python restore.py```
