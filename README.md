@@ -12,7 +12,7 @@ Based on adversarial adaptation, we propose a `Pseudo Centroid Alignment Objecti
 ###  Welcome to check our [paper](http://proceedings.mlr.press/v80/xie18c/xie18c.pdf).
 
 ## Citation
-If you find this useful for your research, we would be pleased if you cite the following papers:
+If you find this useful for your research, we would be appreciated if you cite the following papers:
 
 ```
 @inproceedings{xie2018learning,
