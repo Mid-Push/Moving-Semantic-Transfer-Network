@@ -32,4 +32,7 @@ Put the `trained_mstn_model` directory in `alexnet` directory.
 
 Restore the model and evaluate it.
 
-```python restore.py```
+```
+python restore_mstn.py
+
+```
