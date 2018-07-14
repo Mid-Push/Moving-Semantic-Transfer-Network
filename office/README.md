@@ -21,3 +21,7 @@ Choose the transfer task in `mstntrain.py` (default is A->W) and
 ```
 "python mstntrain.py"
 ```
+
+## Evaluating Model
+
+We also provided the trained model for MSTN. Download the trained model directory from [here](https://drive.google.com/drive/folders/1o10GWduF3QI7p55x14YwyYxykjEPi8Jz?usp=sharing).
