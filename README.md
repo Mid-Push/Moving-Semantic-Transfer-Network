@@ -31,7 +31,12 @@ My work is based on DANN. During my reimplementation of DANN, I noticed followin
 <li >When training, source and target images would be "Random Cropping". When testing, target images would be "Center Cropping" (Caffe only uses crop command but the inner implemenattion actually random crop when training while center crop when testing). </li>
 </ol>
 
-<li> Hyperparameter </li>
+<li> Implementing Moving Centroid </li>
+<ol type="a">
+<li>We can not just update the centroid by "moving_centroid=theta*moving_centroid+(1-theta)*current_centroid". This is just a update_op and need to be executed by specifying. (Look our code for more detail.)</li>
+>li>Using tensorboard to check whether centroids have been updated.</li>
+</ol>
+
 
 
 
