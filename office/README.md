@@ -6,3 +6,8 @@
 >>Pretrained Alexnet model    ------ bvlc_alexnet.npy
 
 >>trained MSTN model          ------ 10000.ckpt
+
+
+## Training Model
+
+Download the pretrained Alexnet Model and add the model to `alexnet` directory.
