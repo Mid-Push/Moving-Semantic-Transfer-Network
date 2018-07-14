@@ -20,6 +20,5 @@ Choose the transfer task in `mstntrain.py` (default is A->W) and
 ```
 Alexnet:
 
-"./build/tools/caffe train -solver models/*/alexnet/solver.prototxt -weights models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel (*=DAN, RTN or JAN)"
-```
+"python mstntrain.py
 .
